@@ -1,2 +1,2 @@
-# bharatnext
+# BharatNext
 Trusted News Platform
