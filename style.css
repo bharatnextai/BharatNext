@@ -96,20 +96,7 @@
     </nav>
   </footer>
 
-  <!-- Dark Mode Toggle Button and Script -->
-  <button id="darkModeToggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 16px; background: #111; color: #fff; border: none; border-radius: 6px; cursor: pointer; z-index: 999;">
-    Toggle Dark Mode
-  </button>
-  <script>
-    const toggleBtn = document.getElementById('darkModeToggle');
-    toggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-      localStorage.setItem('dark-mode', document.body.classList.contains('dark-mode'));
-    });
-    if (localStorage.getItem('dark-mode') === 'true') {
-      document.body.classList.add('dark-mode');
-    }
-  </script>
+
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
