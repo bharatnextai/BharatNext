@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BharatNext - Tech, AI, Geopolitics, Viral News & Insights">
+  <meta name="author" content="BharatNext Team">
+  <meta name="keywords" content="BharatNext, tech news, AI updates, geopolitics, India news, trending India, Bharat AI">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="BharatNext - Breaking Tech, AI & Geopolitics News">
+  <meta property="og:description" content="Get the latest in AI, tech, geopolitics, viral news, and Indian current affairs">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bharatnextai.github.io/BharatNext/">
+  <meta property="og:image" content="https://bharatnextai.github.io/BharatNext/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BharatNext - Tech. AI. Geopolitics.">
+  <meta name="twitter:description" content="Your next-gen Indian news platform for trending stories.">
+  <meta name="twitter:image" content="https://bharatnextai.github.io/BharatNext/og-image.jpg">
+  <link rel="canonical" href="https://bharatnextai.github.io/BharatNext/" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <title>BharatNext - Breaking Tech, AI & Geopolitics News</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">BharatNext</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">News</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#tech">Tech</a></li>
+        <li><a href="#geo">Geopolitics</a></li>
+        <li><a href="#viral">Viral</a></li>
+        <li><a href="#business">Business</a></li>
+        <li><a href="#opinion">Opinion</a></li>
+		<li><a href="articles/rise-of-ai-in-india.html">Articles</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="featured">
+      <article class="featured-article">
+        <h1>India’s AI Leap: ChatGPT-5 Integration in Governance</h1>
+        <p>The government’s digital mission gets smarter as AI steps into bureaucracy.</p>
+      </article>
+    </section>
+
+    <section class="grid news-grid">
+      <article class="news-card">
+        <h2>China’s Rare Earth Ban and Global Tech Panic</h2>
+        <p>Global tech leaders are racing to rework their chip sourcing post China’s move.</p>
+      </article>
+      <article class="news-card">
+        <h2>10 Free AI Tools That’ll Save You Hours</h2>
+        <p>Productivity is being redefined by AI — here’s how to keep up.</p>
+      </article>
+      <article class="news-card">
+        <h2>Viral Moment: The Video That Made Everyone Cry</h2>
+        <p>This 60-second video became the internet’s emotional reset button.</p>
+      </article>
+      <article class="news-card">
+        <h2>How Space Tech is Fueling India’s Defense Edge</h2>
+        <p>ISRO's next-gen satellites may rewrite modern warfare strategy.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <h3>Most Read</h3>
+      <ul>
+        <li>AI Job Loss or Opportunity?</li>
+        <li>India-US Tech Corridor 2025</li>
+        <li>Deepfakes and the 2025 Elections</li>
+        <li>From D2C to IPO: Indian Startup Case Study</li>
+      </ul>
+
+      <div class="newsletter-box">
+        <h3>Get Updates</h3>
+        <p>Subscribe for daily trending stories in tech, AI & policy.</p>
+        <form>
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 BharatNext. All rights reserved.</p>
+    <nav class="footer-nav">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </nav>
+  </footer>
+
+  <!-- Dark Mode Toggle Button and Script -->
+  <button id="darkModeToggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 16px; background: #111; color: #fff; border: none; border-radius: 6px; cursor: pointer; z-index: 999;">
+    Toggle Dark Mode
+  </button>
+  <script>
+    const toggleBtn = document.getElementById('darkModeToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('dark-mode', document.body.classList.contains('dark-mode'));
+    });
+    if (localStorage.getItem('dark-mode') === 'true') {
+      document.body.classList.add('dark-mode');
+    }
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</body>
+</html>
